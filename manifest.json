@@ -1,0 +1,32 @@
+{
+	"name": "Catlocker",
+	"description": "Stop watching cats!",
+	"version": "1.0",
+
+	"icons": {
+		"512": "locked.png"
+	},
+
+	"permissions": [
+		"webNavigation",
+		"storage"
+	],
+
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true,
+		"open_in_tab": false
+	},
+
+	"browser_action": {
+		"default_title": "Settings",
+		"default_icon": "locked.png"
+	},
+
+	"manifest_version": 2
+}

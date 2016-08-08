@@ -1,0 +1,27 @@
+body {
+	background-color: #bbbbbb; 
+}
+
+main {
+	margin: 0px 10px;
+}
+
+.mainButton {
+	margin: 0px 0px 10px 0px;
+}
+
+.inputText {
+	font-weight: bold;
+	color: #222222;
+	margin: 10px 0px 5px 0px;
+	display: block;
+}
+
+.inputText textarea {
+	font-weight: normal;
+	width: 400px;
+	height: 100px;
+	font-family: monospace;
+	font-size: 12px;
+	margin: 5px 0px;
+}
